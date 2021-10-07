@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basic_ch03_secretdiary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Basic_Ch03_SecretDiary">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.Basic_Ch03_SecretDiary.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DiaryActivity"
+            android:theme="@style/Theme.Basic_Ch03_SecretDiary.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>
+
+<!--
+# 테마 변경법 #
+res - values - themes 폴더에서 themes.xml 파일에서 원하는 디자인의 style을 생성한 뒤 메니페스트에서 테마를 변경
+기본적으로는 머터리얼 설정
+
+
+-->
