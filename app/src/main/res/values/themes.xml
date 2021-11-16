@@ -14,5 +14,9 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <!--
+    테마에서 원하는 style 커스텀 후 AndroidManifest 파일에서 스타일 설정 가능
+    -->
     <style name="Theme.Basic_Ch03_SecretDiary.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
 </resources>
+

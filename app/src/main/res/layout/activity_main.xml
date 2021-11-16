@@ -24,7 +24,7 @@
         android:id="@+id/passwordLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#BA7575"
+        android:background="#4170E1"
         android:padding="20dp"
         app:layout_constraintVertical_bias="0.45"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +37,7 @@
             android:layout_width="40dp"
             android:layout_height="60dp"
             android:layout_marginEnd="10dp"
-            android:background="#CDB8B8"
+            android:background="#411668"
             app:layout_constraintBottom_toBottomOf="@id/numberPicker1"
             app:layout_constraintEnd_toStartOf="@id/numberPicker1"
             app:layout_constraintStart_toStartOf="parent"
@@ -87,3 +87,13 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--
+AppCompatButton 과 Button의 차이점
+기본적으로 Material 테마가 적용되어 있기 때문에 Button에서 백그라운드가 적용되지 않는다.
+AppCompatButton의 경우 이전 버전들과도 호환되기 때문에 원하는 형태로 설정이 가능하다.
+
+
+
+
+-->
